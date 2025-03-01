@@ -12,7 +12,7 @@ MSCA module, designed to capture both local and global features of imaging data.
 
 The figure below shows our proposed network.
 
-![image](images/network.png)
+![image](images/main.png)
 
 The figure below shows our proposed E3D-MSCA.
 
