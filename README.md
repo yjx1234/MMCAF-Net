@@ -111,6 +111,122 @@ The figure below shows our proposed MSCA.
 </tbody>
 </table>
 
+We compare our img encoder with other methods. The experimental results show that our model is superior to these methods.
+<table>
+<thead>
+  <tr>
+    <th>Methods</th>
+    <th>AUROC</th>
+    <th>ACC</th>
+    <th>F1 score</th>
+    <th>Specificity</th>
+    <th>Sensitivity</th>
+    <th>PPV</th>
+    <th>NPV</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>SAM+E3D-MSCA</td>
+    <td>0.610</td>
+    <td>0.651</td>
+    <td>0.444</td>
+    <td>0.786</td>
+    <td>0.400</td>
+    <td>0.500</td>
+    <td>0.710</td>
+  </tr>
+  <tr>
+    <td>PENet</td>
+    <td>0.560</td>
+    <td>0.721</td>
+    <td>0.400</td>
+    <td>0.964</td>
+    <td>0.267</td>
+    <td>0.800</td>
+    <td>0.711</td>
+  </tr>
+  <tr>
+    <td>PENet+E3D-MSCA</td>
+    <td>0.644</td>
+    <td>0.721</td>
+    <td>0.500</td>
+    <td>0.893</td>
+    <td>0.400</td>
+    <td>0.667</td>
+    <td>0.735</td>
+  </tr>
+  <tr>
+    <td>PENet+E3D-MSCA+drop</td>
+    <td>0.712</td>
+    <td>0.767</td>
+    <td>0.545</td>
+    <td>0.964</td>
+    <td>0.400</td>
+    <td>0.857</td>
+    <td>0.857</td>
+  </tr>
+</tbody>
+</table>
+
+We compare our fusion method with other methods. The experimental results show that our model is superior to these methods.
+<table>
+<thead>
+  <tr>
+    <th>Methods</th>
+    <th>AUROC</th>
+    <th>ACC</th>
+    <th>F1 score</th>
+    <th>Specificity</th>
+    <th>Sensitivity</th>
+    <th>PPV</th>
+    <th>NPV</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Cross-Attention</td>
+    <td>0.752</td>
+    <td>0.744</td>
+    <td>0.686</td>
+    <td>0.714</td>
+    <td>0.800</td>
+    <td>0.600</td>
+    <td>0.870</td>
+  </tr>
+  <tr>
+    <td>clip_Fusion</td>
+    <td>0.717</td>
+    <td>0.698</td>
+    <td>0.629</td>
+    <td>0.679</td>
+    <td>0.733</td>
+    <td>0.550</td>
+    <td>0.826</td>
+  </tr>
+  <tr>
+    <td>Late_Fusion</td>
+    <td>0.729</td>
+    <td>0.674</td>
+    <td>0.462</td>
+    <td>0.821</td>
+    <td>0.400</td>
+    <td>0.545</td>
+    <td>0.719</td>
+  </tr>
+  <tr>
+    <td>MSCA_Fusion</td>
+    <td>0.786</td>
+    <td>0.791</td>
+    <td>0.690</td>
+    <td>0.857</td>
+    <td>0.667</td>
+    <td>0.714</td>
+    <td>0.828</td>
+  </tr>
+</tbody>
+</table>
+
 ## Getting started to evaluate
 ### Install dependencies
 ```
