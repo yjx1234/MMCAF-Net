@@ -22,6 +22,94 @@ The figure below shows our proposed MSCA.
 
 ![image](images/MSCA.png)
 
+## Experiment result
+   We compare our model with some state-of-the-art multimodal methods. The experimental results show that our model is superior to these methods.
+<table>
+<thead>
+  <tr>
+    <th>Methods</th>
+    <th>AUROC</th>
+    <th>ACC</th>
+    <th>F1 score</th>
+    <th>Specificity</th>
+    <th>Sensitivity</th>
+    <th>PPV</th>
+    <th>NPV</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>PECon</td>
+    <td>0.786</td>
+    <td>0.744</td>
+    <td>0.645</td>
+    <td>0.786</td>
+    <td>0.667</td>
+    <td>0.625</td>
+    <td>0.815</td>
+  </tr>
+  <tr>
+    <td>MedFuse</td>
+    <td>0.786</td>
+    <td>0.721</td>
+    <td>0.571</td>
+    <td>0.821</td>
+    <td>0.533</td>
+    <td>0.615</td>
+    <td>0.767</td>
+  </tr>
+  <tr>
+    <td>Drfuse</td>
+    <td>0.613</td>
+    <td>0.676</td>
+    <td>0.353</td>
+    <td>0.800</td>
+    <td>0.333</td>
+    <td>0.375</td>
+    <td>0.769</td>
+  </tr>
+  <tr>
+    <td>MMTM</td>
+    <td>0.802</td>
+    <td>0.698</td>
+    <td>0.581</td>
+    <td>0.750</td>
+    <td>0.600</td>
+    <td>0.562</td>
+    <td>0.778</td>
+  </tr>
+  <tr>
+    <td>PEfusion</td>
+    <td>0.740</td>
+    <td>0.721</td>
+    <td>0.600</td>
+    <td>0.786</td>
+    <td>0.600</td>
+    <td>0.600</td>
+    <td>0.786</td>
+  </tr>
+  <tr>
+    <td>daft</td>
+    <td>0.727</td>
+    <td>0.729</td>
+    <td>0.667</td>
+    <td>0.786</td>
+    <td>0.650</td>
+    <td>0.684</td>
+    <td>0.759</td>
+  </tr>
+  <tr>
+    <td>MMCAF-Net</td>
+    <td>0.786</td>
+    <td>0.791</td>
+    <td>0.690</td>
+    <td>0.857</td>
+    <td>0.667</td>
+    <td>0.714</td>
+    <td>0.828</td>
+  </tr>
+</tbody>
+</table>
 
 ## Getting started to evaluate
 ### Install dependencies
