@@ -227,6 +227,45 @@ We compare our fusion method with other methods. The experimental results show t
 </tbody>
 </table>
 
+In the ablation experiment of the table encoder, we compared the MLP and KAN methods. The final experimental results indicate that KAN outperforms MLP as the encoder.
+<table>
+<thead>
+  <tr>
+    <th>Methods</th>
+    <th>AUROC</th>
+    <th>ACC</th>
+    <th>F1 score</th>
+    <th>Specificity</th>
+    <th>Sensitivity</th>
+    <th>PPV</th>
+    <th>NPV</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>MLP</td>
+    <td>0.724</td>
+    <td>0.674</td>
+    <td>0.611</td>
+    <td>0.643</td>
+    <td>0.733</td>
+    <td>0.524</td>
+    <td>0.818</td>
+  </tr>
+  <tr>
+    <td>KAN</td>
+    <td>0.819</td>
+    <td>0.721</td>
+    <td>0.647</td>
+    <td>0.714</td>
+    <td>0.733</td>
+    <td>0.579</td>
+    <td>0.833</td>
+  </tr>
+</tbody>
+</table>
+
+
 ## Getting started to evaluate
 ### Install dependencies
 ```
