@@ -265,6 +265,10 @@ In the ablation experiment of the table encoder, we compared the MLP and KAN met
 </tbody>
 </table>
 
+The following figure demonstrates the interpretability of our table features.
+
+![image](images/shap_summary.png)
+From the figure, we can see that the three most important features in our table data are Sex, Smoking History, and T-Stage, while Weight and N-Stage have relatively small impacts on the model output. M-Stage and Age generally tend to negatively affect the model output, but the impact is not particularly significant.
 
 ## Getting started to evaluate
 ### Install dependencies
