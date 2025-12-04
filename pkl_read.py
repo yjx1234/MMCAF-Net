@@ -15,8 +15,8 @@ class CTPE:
         return self.num_slice
 
 #w all information
-bbox_path = '/home/vesselseg3/publicdata/Lung-pet-ct/G_first_last_nor.csv'
-pkl_path = '/home/vesselseg3/publicdata/Lung-pet-ct/series_list_last_AG.pkl'
+bbox_path = '/home/zcd/yujianxun/G_first_last_nor.csv'
+pkl_path = '/home/zcd/yujianxun/series_list_last_AG.pkl'
 
 df = pd.read_csv(bbox_path)
 with open(pkl_path, 'wb') as pkl_file:
