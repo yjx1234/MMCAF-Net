@@ -278,7 +278,7 @@ pip install -r requirements.txt
 
 ### Data preprocess
 Lung-PET-CT-dx dataset can get from this link https://doi.org/10.7937/TCIA.2020.NNC2-0461
-In short, using create_hdf5.py to make an hdf5 file.
+In short, using hdf5_ours.py to make an hdf5 file.
 
 ### Evaluation
 To do the evaluation process, please run the following command :
